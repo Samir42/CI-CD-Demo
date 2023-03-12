@@ -1,0 +1,69 @@
+Global Infrastructure 
+	- Regions
+	- Availability Zones (AZs)
+
+Compute 
+	- High Priority 
+		- EC2 - Elastic Compute Cloud 
+		- Lambda 
+		
+	- Low Priority 
+		- ECS - Elastic Container Service
+		- EKS - Elastic Kubernetes Service 
+		- Fargate 
+
+Storage 
+	- High Priority 
+		- S3 - Simple Storage Service
+		- EBS - Elastic Block Store 
+		- EFS - Elastic File System 
+		- Amazon Glacier 
+	- Low Priority 
+		- Amazon FSx
+		- AWS Storage Gateway
+		
+	Good to research about (AWS EBS vs AWS EFS)
+
+Database 
+	- High Priority 
+		- RDS
+		- Dynamo DB
+		
+	- Low Priority 
+		- Aurora
+		- Document DB
+		- Neptune 
+		- ElastiCache
+		
+Networking 
+	- High Priority
+		- VPC 
+		- Elastic Load Balancing 
+		- Route53
+		
+	- Low Priority
+		- Cloud Front 
+		- AWS Direct Connect 
+		- AWS Transit Gateway
+		
+Security
+	- High Priority
+		- IAM - Identity & Access Management
+	
+	- Low Priority
+		- Amazon Inspector 
+		- Amazon GuardDuty 
+		- AWS WAF (Web Application Firewall)
+		- AWS Shield 
+		- Amazon Machie 
+		
+Pricing 
+	- High Priority
+		- Pay as you go pricing 
+		- Reserved Instances
+		- Spot Instances 
+		- AWS Saving Plans 
+		- Free tier 
+		- Cost Explorer 
+
+		
